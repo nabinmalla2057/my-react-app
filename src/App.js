@@ -16,7 +16,7 @@ function App() {
     },
     {
       name: "Nepal",
-      cities: ["Pokhara", "Kathmandu", "Dhangadhi", "Nepalgunj"],
+      cities: ["Bajhang", "Kailali", "Dhangadhi", "Nepalgunj"],
     },
   ];
 
