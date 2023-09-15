@@ -1,38 +1,64 @@
-.App {
+/* App.css */
+
+/* Define some colors */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.select-container {
+  margin: 20px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+select:hover {
+  background-color: #eee;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
 }
